@@ -1,0 +1,73 @@
+
+#head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  width: 100vw;
+  height: 30vh;
+  background-color: #436d70;
+  background-size: cover;
+}
+
+#head h2{
+    margin-top: 5rem;
+      color: black;
+      font-size: 4rem;
+  }
+
+  .academic .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+  }
+  
+  .academic .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  
+  .academic .box-container .box img{
+    height: 25rem;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .academic .box-container .box .content{
+    padding:2rem;
+  }
+  
+  .academic .box-container .box .content h3{
+    font-size:2rem;
+    color:#333;
+  }
+  
+  .academic .box-container .box .content h3 i{
+    color:var(--c);
+  }
+  
+  .academic .box-container .box .content p{
+    font-size:1.7rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .academic .box-container .box .content .stars i{
+    font-size:1.7rem;
+    color:var(--c);
+  }
+  
+  .academic .box-container .box .content .price{
+    font-size: 2rem;
+    color:#333;
+    padding-top: 1rem;
+  }
+  
+  .academic .box-container .box .content .price span{
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+  }
